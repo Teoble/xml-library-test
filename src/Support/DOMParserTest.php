@@ -10,6 +10,6 @@ class DOMParserTest implements XMLParserTest{
         $dom = new DOMDocument();
         $xmlContent = file_get_contents($url);
         $dom->loadXML($xmlContent);
-        return $dom;
+        return $dom->documentElement;
     }
 }

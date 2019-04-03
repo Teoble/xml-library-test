@@ -141,6 +141,12 @@
     "psr/simple-cache": {
         "version": "1.0.1"
     },
+    "sabre/uri": {
+        "version": "2.1.1"
+    },
+    "sabre/xml": {
+        "version": "2.1.2"
+    },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
         "recipe": {
@@ -152,6 +158,9 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "servo/fluidxml": {
+        "version": "1.21"
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.2.0"

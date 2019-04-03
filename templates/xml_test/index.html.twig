@@ -1,7 +1,14 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}XML Tests{% endblock %}
-
+{% block stylesheets %}
+    <style>
+        .content-tab, #originalXML{
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+{% endblock %}
 {% block body %}
     <section class="section">
         <div class="container">
@@ -9,12 +16,12 @@
                 XML Library Test
             </h1>
             <div>
-                <p> CLick in the buttons below to load the var dump for each XML:</p>
+                <p> Click in the buttons below to load the var dump for each XML:</p>
             </div>
             <div class="columns">
                 {% for item in testXMLs %}
                     <div class="column">
-                        <a class="button is-link is-flex">{{ item }}</a>
+                        <a class="xml-test button is-link is-flex">{{ item }}</a>
                     </div>
                 {% endfor %}                
             </div>
@@ -35,11 +42,17 @@
             <div class="container section">
                 {% for lib in XMLLibs %}
                     <div id="{{lib}}" class="content-tab {{ (lib != 'DOM') ? 'is-hidden' : 'is-visible' }}" >
-                        <pre class="xml-dump">
-                            {{lib}} Overview Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </pre>
+                        <div class="xml-dump">
+                            Click in one XML Format to loaded the {{lib}} object
+                        </div>
                     </div>  
                 {% endfor %}
+            </div>
+            <div class="container">
+                <p>Original XML</p>
+                <pre id="originalXML">
+
+                </pre>
             </div>
         </div>        
     </section>

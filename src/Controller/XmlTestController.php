@@ -6,15 +6,15 @@ use App\Support\XMLParserCreator;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\VarDumper\Cloner\VarCloner;
-use Symfony\Component\VarDumper\Dumper\CliDumper;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\VarDumper\Dumper\HtmlDumper;
 
 class XmlTestController extends AbstractController
 {
 
     private $testXMLs = ['Spreaker', 'FeedBurner', 'PR News'];
-    private $XMLLibs = ['DOM','simplexml','XMLReader'];
+    private $XMLLibs = ['DOM','simplexml','XMLReader', 'SabreXML', 'FluidXML', 'DOMCrawler'];
     /**
      * @Route("/xml/test", name="xml_test")
      */
@@ -29,16 +29,25 @@ class XmlTestController extends AbstractController
     public function loadDumps(Request $request)
     {
         $creator = new XMLParserCreator();
-        $parser = $creator->createXMLParser("DOM");
-        $xmlObject = $parser->parseXML("http://".$request->getHttpHost()."/assets/xml/".strtolower($request->request->get('xml').'.xml'));
-        return new JsonResponse(
-                [
-                    "DOM" => $this->stringfyDump($xmlObject)
-                ]
-        );
+        $XMLUrl = "http://".$request->getHttpHost()."/assets/xml/".strtolower(str_replace(' ','_',$request->request->get('xml')).'.xml');
+        $json = [
+            'originalXML' => file_get_contents($XMLUrl)
+        ];
+        foreach ($this->XMLLibs as $lib) {
+            $parser = $creator->createXMLParser($lib);
+            $xmlObject = $parser->parseXML($XMLUrl);
+            $json[$lib] = $this->stringfyDump($xmlObject);
+        }
+
+        return new JsonResponse($json);
     }
 
     private function stringfyDump($parser){
-        return htmlentities(print_r($parser,true));        
+        $cloner = new VarCloner();
+        $dumper = new HtmlDumper();
+        $output = fopen('php://memory', 'r+b');
+
+        $dumper->dump($cloner->cloneVar($parser), $output);
+        return stream_get_contents($output, -1, 0);
     }
 }

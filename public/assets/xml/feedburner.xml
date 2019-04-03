@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" 
+    xmlns:atom="http://www.w3.org/2005/Atom" 
+    xmlns:media="http://search.yahoo.com/mrss/" 
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" 
+    xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+    <channel>
+        <title>El Siglo 21 es Hoy</title>
+        <link>http://ElSiglo21esHoy.com</link>
+        <description>Que la tecnología esté en tus manos y no estés tú en manos de la tecnología. &#xD;
+&#xD;
+PODCAST desde las calles de Bogotá, incluyendo el paisaje sonoro espontáneo de la ciudad. &#xD;
+Apoya a este podcast en https://www.patreon.com/LocutorCo</description>
+        <language>es</language>
+        <category>Social Networking</category>
+        <copyright>Compartelo!</copyright>
+        <image>
+            <link>http://ElSiglo21esHoy.com</link>
+            <url>https://d15mj6e6qmt1na.cloudfront.net/i/28185106/300x300/c</url>
+            <title>El Siglo 21 es Hoy</title>
+        </image>
+        <itunes:author>LaLiga.FM</itunes:author>
+        <itunes:image href="https://4.bp.blogspot.com/-gRVkdLcil-4/W-7WuLEobgI/AAAAAAAB5NA/v7ZdpixvqJ0_fT6gAVyEMXckwdh3eCIowCLcBGAs/s1600/%2BEl%2BSiglo%2B21%2Bes%2BHoy%2BLocutorCo%2BLaLigaFM%2B2019.jpg" />
+        <itunes:subtitle>Vida y Tecnología desde Bogotá, Colombia. </itunes:subtitle>
+        <itunes:summary>Podcast sobre vida tecnológica, llena de gadgets, apps y tecnología para conectarnos.</itunes:summary>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:type>episodic</itunes:type>
+        <googleplay:author>Félix @LocutorCo</googleplay:author>
+        <googleplay:email>Spreaker@Locutor.Co</googleplay:email>
+        <googleplay:description>PODCAST desde las calles de Bogotá, incluyendo el paisaje sonoro espontáneo de la ciudad. 
+
+Apoya a este podcast en https://www.patreon.com/LocutorCo
+
+RSS Feed: http://bit.ly/ElSiglo21esHoy
+Web: http://ElSiglo21esHoy.com
+www.Twitter.com/LocutorCo</googleplay:description>
+        <googleplay:category text="TV &amp; Film" />
+        <googleplay:explicit>No</googleplay:explicit>
+        <feedburner:info uri="siglo21" />
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+        <media:copyright>Compartelo!</media:copyright>
+        <media:thumbnail url="https://4.bp.blogspot.com/-gRVkdLcil-4/W-7WuLEobgI/AAAAAAAB5NA/v7ZdpixvqJ0_fT6gAVyEMXckwdh3eCIowCLcBGAs/s1600/%2BEl%2BSiglo%2B21%2Bes%2BHoy%2BLocutorCo%2BLaLigaFM%2B2019.jpg" />
+        <media:keywords>tecno,tecno,gadgets,app,apps,aplicaciones,iPhone,iPad,iPod,apple,android,windows,mobile,telefono,celular,aplicacion,samsung,iOS,movistar,claro,tigo,virgin,smartphone,tablet,tableta,galaxy,spreaker,podcast,podcaster,twitter,facebook,instagram,fotos,bogota</media:keywords>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture/Personal Journals</media:category>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">TV &amp; Film</media:category>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture/Places &amp; Travel</media:category>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Comedy</media:category>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Tech News</media:category>
+        <itunes:owner>
+            <itunes:email>feed@Locutor.Co</itunes:email>
+            <itunes:name>LaLiga.FM</itunes:name>
+        </itunes:owner>
+        <itunes:keywords>tecno,tecno,gadgets,app,apps,aplicaciones,iPhone,iPad,iPod,apple,android,windows,mobile,telefono,celular,aplicacion,samsung,iOS,movistar,claro,tigo,virgin,smartphone,tablet,tableta,galaxy,spreaker,podcast,podcaster,twitter,facebook,instagram,fotos,bogota</itunes:keywords>
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Personal Journals" />
+        </itunes:category>
+        <itunes:category text="TV &amp; Film" />
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Places &amp; Travel" />
+        </itunes:category>
+        <itunes:category text="Comedy" />
+        <itunes:category text="Technology">
+            <itunes:category text="Tech News" />
+        </itunes:category>
+        <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/</creativeCommons:license>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://ElSiglo21esHoy.com" />
+        <feedburner:emailServiceId>siglo21</feedburner:emailServiceId>
+        <feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname>
+        <feedburner:feedFlare href="http://www.podnova.com/add.srf?url=http%3A%2F%2FElSiglo21esHoy.com" src="http://www.podnova.com/img_chicklet_podnova.gif">Subscribe with Podnova</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2FElSiglo21esHoy.com" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare>
+        <feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2FElSiglo21esHoy.com" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://feedly.com/#subscription/feed/http://ElSiglo21esHoy.com" src="http://s3.feedly.com/feedburner/feedly.png">Subscribe with Feedly</feedburner:feedFlare>
+        <feedburner:feedFlare href="https://www.subtome.com/#/subscribe?feeds=http%3A%2F%2FElSiglo21esHoy.com" src="http://www.subtome.com/subtome-feedburner.png">Subscribe with SubToMe</feedburner:feedFlare>
+        <feedburner:browserFriendly>Gracias por entrar, suscríbete añadiendo esta dirección a tu app de podcast favorita</feedburner:browserFriendly>
+        <item>
+            <title>Spotify en Pareja</title>
+            <link>http://feedproxy.google.com/~r/siglo21/~3/WbLrWSwGAxw/spotify-en-pareja</link>
+            <guid isPermaLink="false">http://api.spreaker.com/episode/17504328</guid>
+            <pubDate>Tue, 02 Apr 2019 00:48:49 +0000</pubDate>
+            <itunes:author>@LocutorCo</itunes:author>
+            <itunes:subtitle>Spotify ha presentado un nuevo plan de pago de 2 cuentas de usuario bajo un solo cobro compartido, más barato. El plan "Duo" funciona para que una sola de las 2 personas pague la cuenta, pero que ambas tengan usuario y contraseña separado, con...</itunes:subtitle>
+            <itunes:summary>Spotify ha presentado un nuevo plan de pago de 2 cuentas de usuario bajo un solo cobro compartido, más barato. El plan "Duo" funciona para que una sola de las 2 personas pague la cuenta, pero que ambas tengan usuario y contraseña separado, con playlists separadas, sugerencias separadas, pero... Spotify ofrecerá una playlist en especial con sugerencias compartidas para las 2 personas, basada en los gustos en común que pueda detectar el algoritmo.
+Será mágico eso de que tu pareja te haga sugerencias musicales aún sin saber que será eso que resulte en común.
+
+Pero ¿Cómo está compuesta una pareja para Spotify? ¿Hombre y mujer? 2 hombres o 2 mujeres? Padre e hijo? Hermanos o primos? Todas las anteriores valen, siempre y cuando cumplan con un requisito esencial, que define la "pareja" ante Spotify: Vivir juntos.
+
+Sabio. ¿Verdad?
+
+¿Quieres oír la sugerencia loca de Metal + Reggeatón? Aquí está: https://open.spotify.com/track/2f3HgWSqyXrQuVKG6VlAs1</itunes:summary>
+            <itunes:duration>966</itunes:duration>
+            <itunes:keywords>spotify,pareja,compadresrecerdos</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7602b107236537b4d3dca1d89dfeffa3.jpg" />
+            <itunes:season>7</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+            <googleplay:author>Félix @LocutorCo</googleplay:author>
+            <googleplay:description>Spotify ha presentado un nuevo plan de pago de 2 cuentas de usuario bajo un solo cobro compartido, más barato. El plan "Duo" funciona para que una sola de las 2 personas pague la cuenta, pero que ambas tengan usuario y contraseña separado, con playlists separadas, sugerencias separadas, pero... Spotify ofrecerá una playlist en especial con sugerencias compartidas para las 2 personas, basada en los gustos en común que pueda detectar el algoritmo.
+Será mágico eso de que tu pareja te haga sugerencias musicales aún sin saber que será eso que resulte en común.
+
+Pero ¿Cómo está compuesta una pareja para Spotify? ¿Hombre y mujer? 2 hombres o 2 mujeres? Padre e hijo? Hermanos o primos? Todas las anteriores valen, siempre y cuando cumplan con un requisito esencial, que define la "pareja" ante Spotify: Vivir juntos.
+
+Sabio. ¿Verdad?
+
+¿Quieres oír la sugerencia loca de Metal + Reggeatón? Aquí está: https://open.spotify.com/track/2f3HgWSqyXrQuVKG6VlAs1</googleplay:description>
+            <googleplay:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7602b107236537b4d3dca1d89dfeffa3.jpg" />
+            <googleplay:explicit>No</googleplay:explicit>
+            <author>feed@Locutor.Co (LaLiga.FM)</author>
+            <media:content url="http://feedproxy.google.com/~r/siglo21/~5/nJc84pElGMw/spotify_en_pareja_sorprendente.mp3" type="audio/mpeg" />
+            <description>Spotify ha presentado un nuevo plan de pago de 2 cuentas de usuario bajo un solo cobro compartido, más barato. El plan "Duo" funciona para que una sola de las 2 personas pague la cuenta, pero que...&lt;br/&gt;
+&lt;br/&gt;
+https://ElSiglo21esHoy.com&#xD;
+&#xD;
+Podcast en español sobre Apps, Series y vida cotidiana llena de gadgets y tecnología para ¿mejorar la vida?&lt;img src="http://feeds.feedburner.com/~r/siglo21/~4/WbLrWSwGAxw" height="1" width="1" alt=""/&gt;</description>
+            <feedburner:origLink>http://www.spreaker.com/user/locutor.co/spotify-en-pareja</feedburner:origLink>
+            <enclosure url="http://feedproxy.google.com/~r/siglo21/~5/nJc84pElGMw/spotify_en_pareja_sorprendente.mp3" length="0" type="audio/mpeg" />
+            <feedburner:origEnclosureLink>http://api.spreaker.com/download/episode/17504328/spotify_en_pareja_sorprendente.mp3</feedburner:origEnclosureLink>
+        </item>
+        <item>
+            <title>Telegram ya es accesible a personas ciegas</title>
+            <link>http://feedproxy.google.com/~r/siglo21/~3/oCPwf5BclUQ/telegram-ya-es-accesible-a-personas-cieg</link>
+            <guid isPermaLink="false">http://api.spreaker.com/episode/17448356</guid>
+            <pubDate>Wed, 27 Mar 2019 01:59:39 +0000</pubDate>
+            <itunes:author>@LocutorCo</itunes:author>
+            <itunes:subtitle>La nueva versión de Telegram ya es accesible a personas ciegas. Es una buena noticia, pues corrige la única cosa en la que Telegram no era superior a las otras apps de mensajería.  
+
+Y hay una característica de Telegram que ha sido copiada.  Otra vez...</itunes:subtitle>
+            <itunes:summary>La nueva versión de Telegram ya es accesible a personas ciegas. Es una buena noticia, pues corrige la única cosa en la que Telegram no era superior a las otras apps de mensajería.  
+
+Y hay una característica de Telegram que ha sido copiada.  Otra vez por su competidor más popular.  Pero eso te lo cuento en un episodio posterior.</itunes:summary>
+            <itunes:duration>580</itunes:duration>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3765e8ab69e899529edd57cdf3635c09.jpg" />
+            <itunes:episodeType>full</itunes:episodeType>
+            <googleplay:author>Félix @LocutorCo</googleplay:author>
+            <googleplay:description>La nueva versión de Telegram ya es accesible a personas ciegas. Es una buena noticia, pues corrige la única cosa en la que Telegram no era superior a las otras apps de mensajería.  
+
+Y hay una característica de Telegram que ha sido copiada.  Otra vez por su competidor más popular.  Pero eso te lo cuento en un episodio posterior.</googleplay:description>
+            <googleplay:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3765e8ab69e899529edd57cdf3635c09.jpg" />
+            <googleplay:explicit>No</googleplay:explicit>
+            <author>feed@Locutor.Co (LaLiga.FM)</author>
+            <media:content url="http://feedproxy.google.com/~r/siglo21/~5/028gox3ToEE/telegram_accesible.mp3" type="audio/mpeg" />
+            <itunes:keywords>tecno,tecno,gadgets,app,apps,aplicaciones,iPhone,iPad,iPod,apple,android,windows,mobile,telefono,celular,aplicacion,samsung,iOS,movistar,claro,tigo,virgin,smartphone,tablet,tableta,galaxy,spreaker,podcast,podcaster,twitter,facebook,instagram,fotos,bogota</itunes:keywords>
+            <description>La nueva versión de Telegram ya es accesible a personas ciegas. Es una buena noticia, pues corrige la única cosa en la que Telegram no era superior a las otras apps de mensajería.  
+
+Y hay una...&lt;br/&gt;
+&lt;br/&gt;
+https://ElSiglo21esHoy.com&#xD;
+&#xD;
+Podcast en español sobre Apps, Series y vida cotidiana llena de gadgets y tecnología para ¿mejorar la vida?&lt;img src="http://feeds.feedburner.com/~r/siglo21/~4/oCPwf5BclUQ" height="1" width="1" alt=""/&gt;</description>
+            <feedburner:origLink>http://www.spreaker.com/user/locutor.co/telegram-ya-es-accesible-a-personas-cieg</feedburner:origLink>
+            <enclosure url="http://feedproxy.google.com/~r/siglo21/~5/028gox3ToEE/telegram_accesible.mp3" length="0" type="audio/mpeg" />
+            <feedburner:origEnclosureLink>http://api.spreaker.com/download/episode/17448356/telegram_accesible.mp3</feedburner:origEnclosureLink>
+        </item>
+        <item>
+            <title>Papá está en wikipedia</title>
+            <link>http://feedproxy.google.com/~r/siglo21/~3/qNGgW7_cd0s/papa-esta-en-wikipedia</link>
+            <guid isPermaLink="false">http://api.spreaker.com/episode/17375676</guid>
+            <pubDate>Tue, 19 Mar 2019 22:36:43 +0000</pubDate>
+            <itunes:author>@LocutorCo</itunes:author>
+            <itunes:subtitle>El el día de San José se celebra en varios países también el día del padre. Y este regalo que recibí no tiene precio.</itunes:subtitle>
+            <itunes:summary>El el día de San José se celebra en varios países también el día del padre. Y este regalo que recibí no tiene precio.</itunes:summary>
+            <itunes:duration>493</itunes:duration>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/efb1c9165883cd0654bd9ce94c56bda3.jpg" />
+            <itunes:episodeType>full</itunes:episodeType>
+            <googleplay:author>Félix @LocutorCo</googleplay:author>
+            <googleplay:description>El el día de San José se celebra en varios países también el día del padre. Y este regalo que recibí no tiene precio.</googleplay:description>
+            <googleplay:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/efb1c9165883cd0654bd9ce94c56bda3.jpg" />
+            <googleplay:explicit>No</googleplay:explicit>
+            <author>feed@Locutor.Co (LaLiga.FM)</author>
+            <media:content url="http://feedproxy.google.com/~r/siglo21/~5/J3o-8RBH9H4/papa_esta_en_wikipedia.mp3" type="audio/mpeg" />
+            <itunes:keywords>tecno,tecno,gadgets,app,apps,aplicaciones,iPhone,iPad,iPod,apple,android,windows,mobile,telefono,celular,aplicacion,samsung,iOS,movistar,claro,tigo,virgin,smartphone,tablet,tableta,galaxy,spreaker,podcast,podcaster,twitter,facebook,instagram,fotos,bogota</itunes:keywords>
+            <description>El el día de San José se celebra en varios países también el día del padre. Y este regalo que recibí no tiene precio.&lt;br/&gt;
+&lt;br/&gt;
+https://ElSiglo21esHoy.com&#xD;
+&#xD;
+Podcast en español sobre Apps, Series y vida cotidiana llena de gadgets y tecnología para ¿mejorar la vida?&lt;img src="http://feeds.feedburner.com/~r/siglo21/~4/qNGgW7_cd0s" height="1" width="1" alt=""/&gt;</description>
+            <feedburner:origLink>http://www.spreaker.com/user/locutor.co/papa-esta-en-wikipedia</feedburner:origLink>
+            <enclosure url="http://feedproxy.google.com/~r/siglo21/~5/J3o-8RBH9H4/papa_esta_en_wikipedia.mp3" length="0" type="audio/mpeg" />
+            <feedburner:origEnclosureLink>http://api.spreaker.com/download/episode/17375676/papa_esta_en_wikipedia.mp3</feedburner:origEnclosureLink>
+        </item>
+        <item>
+            <title>Vivir sin Facebook (y con un mango verde)</title>
+            <link>http://feedproxy.google.com/~r/siglo21/~3/AUPUHPRhOD8/vivir-sin-facebook</link>
+            <guid isPermaLink="false">http://api.spreaker.com/episode/17334512</guid>
+            <pubDate>Fri, 15 Mar 2019 20:42:05 +0000</pubDate>
+            <itunes:author>@LocutorCo</itunes:author>
+            <itunes:subtitle>¿Qué tiene que ver el mango verde con Facebook? Acompáñame en este paseo por Bogotá para hablar de nuestra dependencia de una red social y nuestra fragilidad poner todas nuestras comunicaciones en manos de una compañía gigante.
+
+En este episodio...</itunes:subtitle>
+            <itunes:summary>¿Qué tiene que ver el mango verde con Facebook? Acompáñame en este paseo por Bogotá para hablar de nuestra dependencia de una red social y nuestra fragilidad poner todas nuestras comunicaciones en manos de una compañía gigante.
+
+En este episodio cuento con notas de voz de:
+instagram.com/alejopachecos
+instagram.com/lindapatcar
+instagram.com/larobles
+instagram.com/guapacho
+
+Sí. Irónicamente, los podemos seguir y contactar por instagram, una de las redes que se cayó.
+
+Y si quieres enviarme notas de voz, puedes hacerlo en instagram.com/locutorco</itunes:summary>
+            <itunes:duration>1170</itunes:duration>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/62e0ec58ed4e90c064442eed01505c52.jpg" />
+            <itunes:season>7</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+            <googleplay:author>Félix @LocutorCo</googleplay:author>
+            <googleplay:description>¿Qué tiene que ver el mango verde con Facebook? Acompáñame en este paseo por Bogotá para hablar de nuestra dependencia de una red social y nuestra fragilidad poner todas nuestras comunicaciones en manos de una compañía gigante.
+
+En este episodio cuento con notas de voz de:
+instagram.com/alejopachecos
+instagram.com/lindapatcar
+instagram.com/larobles
+instagram.com/guapacho
+
+Sí. Irónicamente, los podemos seguir y contactar por instagram, una de las redes que se cayó.
+
+Y si quieres enviarme notas de voz, puedes hacerlo en instagram.com/locutorco</googleplay:description>
+            <googleplay:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/62e0ec58ed4e90c064442eed01505c52.jpg" />
+            <googleplay:explicit>No</googleplay:explicit>
+            <author>feed@Locutor.Co (LaLiga.FM)</author>
+            <media:content url="http://feedproxy.google.com/~r/siglo21/~5/jE1ns5o4Gv0/el_di_a_del_apago_n_de_facebook.mp3" type="audio/mpeg" />
+            <itunes:keywords>tecno,tecno,gadgets,app,apps,aplicaciones,iPhone,iPad,iPod,apple,android,windows,mobile,telefono,celular,aplicacion,samsung,iOS,movistar,claro,tigo,virgin,smartphone,tablet,tableta,galaxy,spreaker,podcast,podcaster,twitter,facebook,instagram,fotos,bogota</itunes:keywords>
+            <description>¿Qué tiene que ver el mango verde con Facebook? Acompáñame en este paseo por Bogotá para hablar de nuestra dependencia de una red social y nuestra fragilidad poner todas nuestras comunicaciones en...&lt;br/&gt;
+&lt;br/&gt;
+https://ElSiglo21esHoy.com&#xD;
+&#xD;
+Podcast en español sobre Apps, Series y vida cotidiana llena de gadgets y tecnología para ¿mejorar la vida?&lt;img src="http://feeds.feedburner.com/~r/siglo21/~4/AUPUHPRhOD8" height="1" width="1" alt=""/&gt;</description>
+            <feedburner:origLink>http://www.spreaker.com/user/locutor.co/vivir-sin-facebook</feedburner:origLink>
+            <enclosure url="http://feedproxy.google.com/~r/siglo21/~5/jE1ns5o4Gv0/el_di_a_del_apago_n_de_facebook.mp3" length="0" type="audio/mpeg" />
+            <feedburner:origEnclosureLink>http://api.spreaker.com/download/episode/17334512/el_di_a_del_apago_n_de_facebook.mp3</feedburner:origEnclosureLink>
+        </item>
+        <media:credit role="author">LaLiga.FM</media:credit>
+        <media:rating>nonadult</media:rating>
+        <media:description type="plain">Vida y Tecnología desde Bogotá, Colombia. </media:description>
+    </channel>
+</rss>
