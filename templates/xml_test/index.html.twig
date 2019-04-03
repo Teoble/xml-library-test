@@ -7,6 +7,10 @@
             max-height: 300px;
             overflow-y: auto;
         }
+
+        sup{
+            color: red;
+        }
     </style>
 {% endblock %}
 {% block body %}
@@ -31,7 +35,14 @@
                         <div class="container">
                         <ul>
                             {% for lib in XMLLibs %}
-                                <li class="tab {{ (lib == 'DOM') ? 'is-active' : '' }}" data-tab="{{lib}}"><a>{{lib}}</a></li>
+                                <li class="tab {{ (lib == 'DOM') ? 'is-active' : '' }}" data-tab="{{lib}}">
+                                    <a>
+                                        {{lib}}
+                                        {% if lib == 'SabreXML' %}
+                                            <sup>*</sup>
+                                        {% endif %}
+                                    </a>
+                                </li>
                             {% endfor %} 
                         </ul>
                         </div>
@@ -48,6 +59,9 @@
                     </div>  
                 {% endfor %}
             </div>
+            <div class="container section">
+                <p> <sup>*</sup> Author's choise </p>
+            </div>            
             <div class="container">
                 <p>Original XML</p>
                 <pre id="originalXML">
