@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}XML Tests{% endblock %}
+
+{% block body %}
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                XML Library Test
+            </h1>
+            <div>
+                <p> CLick in the buttons below to load the var dump for each XML:</p>
+            </div>
+            <div class="columns">
+                {% for item in testXMLs %}
+                    <div class="column">
+                        <a class="button is-link is-flex">{{ item }}</a>
+                    </div>
+                {% endfor %}                
+            </div>
+            <section class="hero">  
+                <div class="hero-foot">
+                <nav class="tabs is-boxed is-fullwidth">
+                        <div class="container">
+                        <ul>
+                            {% for lib in XMLLibs %}
+                                <li class="tab {{ (lib == 'DOM') ? 'is-active' : '' }}" data-tab="{{lib}}"><a>{{lib}}</a></li>
+                            {% endfor %} 
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+
+            <div class="container section">
+                {% for lib in XMLLibs %}
+                    <div id="{{lib}}" class="content-tab {{ (lib != 'DOM') ? 'is-hidden' : 'is-visible' }}" >
+                        <pre class="xml-dump">
+                            {{lib}} Overview Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </pre>
+                    </div>  
+                {% endfor %}
+            </div>
+        </div>        
+    </section>
+{% endblock %}
+{% block javascripts %}
+    <script src="assets/js/xml.js"></script>
+{% endblock %}
